@@ -1,6 +1,9 @@
 
 
-
+.contenedor {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
 
 
 p, span { 
@@ -28,9 +31,11 @@ body {background-color: rgb(141, 168, 164);
 
   aside, section {
     width: 30%;
-    float: left;
+   
   }
   main, section {
     width: 70%;
-    float: left;
+    
   }
+
+  
