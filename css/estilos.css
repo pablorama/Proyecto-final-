@@ -62,3 +62,5 @@ main p {text-align: justify; line-height: 20px;}
 ul.contactos {list-style: none; font-size: 40px; text-align:center; padding-left: 0px;}
 
 ul.contactos a {color: rgb(88, 23, 148);}
+
+ul.contactos {padding: 20px;}
