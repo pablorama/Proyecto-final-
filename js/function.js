@@ -1,10 +1,16 @@
 
+console.log("Cargó el js");
 
 
-function in() {
-    document.getElementById("nombre").value="In";
-}
+const saludar = function () { alert ("hola")
+};
 
-function out() {
-    document.getElementById("nombre").value="Out";
+document.getElementById("uno").onclick= saludar;
+document.getElementById("dos").onclick= saludar;
+document.getElementById("tres").onclick= saludar;
+document.getElementById("cuatro").onclick= saludar;
+
+let items= document.getElementsByClassName("link-redes");
+for (const item of items) {
+    item.onclick= function () {alert("chau")};
 }
